@@ -1,0 +1,90 @@
+*{ 
+    font-family: 'VALORANT', sans-serif;
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #08080a;
+}
+ 
+.card{
+    background-image: linear-gradient(#142869, #142553);
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: 360px;
+    box-shadow: 0 0 5px 2px #080303;
+}
+
+
+.card .img {
+    background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2022/01/08105219/VALORANT_Neon-1024x602.png);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+ 
+
+
+#x{
+    transition: 1.75s;
+}
+ 
+.blur{
+    filter: blur(10px);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #0f0f1a;
+}
+
+
+
+.card .img span{
+    font-size: 24px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.card .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+}
+
+.card .content .title{
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.card .content .desc { 
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .7;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    .card:hover .content {
+        padding: 20px;
+        height: 290px;
+        transition: 2s;
+    }
+
+ .card:hover .img {
+    width: 400px;
+ }
+
+ 
